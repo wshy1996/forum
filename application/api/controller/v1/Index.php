@@ -11,6 +11,7 @@ class Index extends BaseController
 {
     public function index()
     {
+        return md5(123456);
     }
 
 }
